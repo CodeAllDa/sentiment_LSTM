@@ -1,0 +1,12 @@
+pandas
+nltk
+wordcloud
+matplotlib
+numpy
+re
+pillow
+io
+collections
+streamlit
+tensorflow
+pickle

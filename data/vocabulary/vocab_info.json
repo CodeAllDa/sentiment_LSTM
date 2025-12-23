@@ -1,0 +1,27 @@
+{
+  "vocab_size": 77610,
+  "max_sequence_length": 100,
+  "embedding_dim": 256,
+  "top_20_words": [
+    "n't",
+    "like",
+    "taste",
+    "good",
+    "one",
+    "flavor",
+    "product",
+    "coffee",
+    "great",
+    "love",
+    "tea",
+    "food",
+    "would",
+    "get",
+    "make",
+    "dog",
+    "time",
+    "really",
+    "much",
+    "also"
+  ]
+}
