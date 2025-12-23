@@ -151,11 +151,11 @@ st.set_page_config(
 with st.sidebar:
     import os
 
-    jpg_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'images\logo.png')
+    # jpg_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'images\logo.png')
     from PIL import Image
 
-    img = Image.open(jpg_dir)
-    st.image(img, width=100)
+    # img = Image.open(jpg_dir)
+    st.image('images\logo.png', width=100)
     # st.image('images\logo.jpg', width=100)
     st.title('请选择页面')
     page = st.selectbox("请选择页面", ["项目简介", "词云", "模型训练结果图", "情感分析"],
